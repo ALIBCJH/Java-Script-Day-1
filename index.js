@@ -57,3 +57,11 @@ console.log("Juma" + "Programming in Javascript");
 
 //Type of is a javascript funcction that is used to identify a data type in javasript
 typeof 4;  // returns a number
+
+const a =23;
+const b = 34;
+
+const addNumbers = () => {
+    return a + b;
+}
+console.log(addNumbers());
